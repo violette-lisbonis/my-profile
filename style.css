@@ -1,0 +1,112 @@
+
+body {
+	background-color: rgb(245, 245, 245);
+	color: rgb(70, 70, 70);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+h1, h2 {
+	font-family: 'Neuton', serif;
+	font-weight: 700;
+}
+h1 {
+	font-size: 40px;
+	color: #802A81;
+}
+h2 {
+	color: #C59FC9;
+	font-size: 30px;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	display: inline;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color : #802A81;
+	font-size: 40px;
+}
+a:hover {
+	color: rgb(200,200,200);
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+   left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+ border-right: double thick  #C59FC9;
+  }
+.sidebar ul {
+  list-style: none;
+	padding-left: 0px;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
+.container {
+	width: 700px;
+	margin: 80px auto;
+	padding: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	box-shadow: 0px 15px 35px rgba(128, 42, 129, 0.2);
+	border-radius : 5px;
+	margin : 40px auto;
+	padding: 20px;
+	border: double thick  #C59FC9;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	box-shadow: 5px 3px 3px #802A81;
+}
+
+.sidebar-text{
+	color: #C59FC9;
+	font-size: 30px;
+}
+.em {
+	font-size: 15px;
+}
+
+#Introduction {
+	background-color: rgba(207, 207, 230, 0.7);
+	margin : 40px auto;	
+}
+
+#cherry-blossom {
+	font-size: 20px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 420px;
+	}
+}
